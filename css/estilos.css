@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    font-family: sans-serif;
+}
+
+body{
+    background-color:#4C34E0;
+    padding: 10px;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #FBE3E3;
+    margin-top: 30px;
+    margin-bottom: 80px;
+
+}
+
+h1{
+    padding: 10px;
+}
+
+.contenedor{
+
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+
+}
+
+.tajerta{
+
+    background-color: white;
+    width: 300px;
+    height: 360px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+
+.emojis{
+    font-size: 50px;
+}
+
+h2{
+    color: #F9D34A;
+}
+.precio{
+    color: #4D31DE;
+}
+
+strong{
+    font-size: 45px;
+}
+
+p{
+    color: gray;
+    margin: 4px;
+}
+
+input{
+
+    color: #4D31DE;
+    text-decoration: underline;
+    border: none;
+    background-color: white;
+    margin-top: 20px;
+    padding: 10px;
+    font-weight: bold;
+    
+}
+
+
+.titulo{
+    padding: 10px;
+    background-color: #FFE4D3;
+    margin-bottom: 10px;
+}
+
+.titulo h2{
+    color: #4D31DE;;
+}
+.personal{
+    margin-top: -50px;
+    height: 410px;
+}
+
+.personal input{
+
+    background-color: #4D31DE;
+    color: white;
+    width: 50%;
+}
